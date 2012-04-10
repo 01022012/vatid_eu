@@ -35,7 +35,6 @@ module VatidEu
     end
     return false  unless VALID_COUNTRIES.include?(country)
     response = check(country, id)
-    puts response.inspect
     if response['error']
       raise response['error'].first['text'].first
     else
