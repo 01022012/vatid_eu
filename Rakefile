@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "vatid_eu"
-  gem.homepage = "http://github.com/jeanmartin/vatid_eu"
+  gem.homepage = "http://github.com/GeneralScripting/vatid_eu"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Check validity of EU VATID using vatid.eu (free)}
+  gem.description = %Q{Check validity of EU VATID using vatid.eu (free)}
   gem.email = "jan@general-scripting.com"
   gem.authors = ["Jan Schwenzien"]
   # dependencies defined in Gemfile
