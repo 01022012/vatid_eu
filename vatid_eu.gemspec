@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jan Schwenzien"]
-  s.date = "2012-04-09"
+  s.date = "2012-04-10"
   s.description = "Check validity of EU VATID using vatid.eu (free)"
   s.email = "jan@general-scripting.com"
   s.extra_rdoc_files = [
@@ -20,13 +20,15 @@ Gem::Specification.new do |s|
     ".document",
     ".rvmrc",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/vatid_eu.rb",
     "test/helper.rb",
-    "test/test_vatid_eu.rb"
+    "test/test_vatid_eu.rb",
+    "vatid_eu.gemspec"
   ]
   s.homepage = "http://github.com/GeneralScripting/vatid_eu"
   s.licenses = ["MIT"]
